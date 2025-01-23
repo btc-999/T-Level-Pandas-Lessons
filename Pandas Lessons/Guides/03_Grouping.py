@@ -13,3 +13,8 @@ group = group.sum()
 group = group.sort_values(["score"],ascending=False)
 
 print(group)
+
+for column in df.columns:
+    print(f"Summary for column: {column}")
+    print("-" * 50)
+
